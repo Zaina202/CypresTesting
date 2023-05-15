@@ -10,15 +10,15 @@ https://github.com/Zaina202/CypresTesting/assets/92650788/7c01e7bc-28fb-490e-84c
 
 
 1.Observe
- beforeEach(()=>{
-        cy.visit('https://goal-dev.mdx.ac.uk/');
-        cy.get('#id_username').type('Zaina');
-        cy.get('#id_password').type('zozo12345');
-        cy.get('select[name="login_as"]').select('staff');
-        cy.get('form[action="/login/"]> button[type="submit"]').click();
-        cy.get('a[href="/staff/34"]').click();
-        cy.visit('https://goal-dev.mdx.ac.uk/staff/34/goals/');
-    });
+  beforeEach(()=>{
+         cy.visit('https://goal-dev.mdx.ac.uk/');
+         cy.get('#id_username').type('Zaina');
+         cy.get('#id_password').type('zozo12345');
+         cy.get('select[name="login_as"]').select('staff');
+         cy.get('form[action="/login/"]> button[type="submit"]').click();
+         cy.get('a[href="/staff/34"]').click();
+         cy.visit('https://goal-dev.mdx.ac.uk/staff/34/goals/');
+     });
 
 cy.visit('https://goal-dev.mdx.ac.uk/');: This line tells the test to open a web page with the URL "https://goal-dev.mdx.ac.uk/".
 cy.get('#id_username').type('Zaina');: Here, the test looks for an element on the page with the ID "id_username" (presumably an input field for a username) and enters the text "Zaina" into it.
