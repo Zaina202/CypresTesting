@@ -7,7 +7,7 @@ https://github.com/Zaina202/CypresTesting/assets/92650788/47c3e207-f66f-4d71-b03
 applay filter testing
 https://github.com/Zaina202/CypresTesting/assets/92650788/7c01e7bc-28fb-490e-84cb-8726281564d3
 
-
+documant link for more clear description: https://docs.google.com/document/d/1bp6ybfA9R_lmcSpVHCObuupM-NHHUQU9kIHPW33RTcY/edit?usp=sharing
 
 1.Observe
   beforeEach(()=>{
